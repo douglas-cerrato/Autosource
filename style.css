@@ -16,7 +16,7 @@
     float: right;
     margin-top: 8%;
     font-weight: bold;
-    font-size: larger;
+    font-size: 15px;
     font-family: "Lucida Console";
     outline-style: groove;
 }
@@ -43,4 +43,21 @@
     border-radius:4px;
     border:groove 2px #ccc;
     font-size:14px;
+}
+#login_button{
+    background-color: #E20000;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+    margin-bottom: 150px;
+}
+#info_links{
+    color: black;
+    font-size: 15px;
+
 }
