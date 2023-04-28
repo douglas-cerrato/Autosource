@@ -1,0 +1,46 @@
+#login-top-bar{
+    background-color: #E20000;
+    height: 150px;
+    position: relative;
+    padding: 20px;
+    margin-top:-1%;
+    margin-left:8%;
+    margin-right:8%;
+}
+#signup-button{
+    background-color: #E20000;
+    width: 90px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    float: right;
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Lucida Console";
+    outline-style: groove;
+}
+#logo img {
+    width: 300px;
+    height: 150px;
+}
+#Login-Bar{
+    background-color: #e20000;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Console";
+    font-size: 20px;
+}
+#text{
+    height:40px;
+    width:300px;
+    border-radius:4px;
+    border:groove 2px #ccc;
+    font-size:14px;
+}
