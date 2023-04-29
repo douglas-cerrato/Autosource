@@ -61,3 +61,36 @@
     font-size: 15px;
 
 }
+#signup-box{
+    background-color: #e20000;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    margin-top: 4%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lucida Console";
+    font-size: 20px;
+}
+#signup_text{
+    height:30px;
+    width:300px;
+    border-radius:4px;
+    border:groove 2px #ccc;
+    font-size:14px;
+    margin: -5px;
+    margin-top: 2px;
+}
+#createacc_button{
+    background-color: #E20000;
+    width: fit;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+    margin-bottom: 150px;
+}
