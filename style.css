@@ -94,3 +94,158 @@
     outline-style: groove;
     margin-bottom: 150px;
 }
+#error_message{
+    color:black;
+    font-size:15px;
+    font-weight:bold;
+    font-family:'Lucida Console';
+    margin-top: -10%;
+}
+#home_header{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-color: #e20000;
+}
+#search_bar{
+    position:absolute;
+    width: 600px;
+    height: 40px;
+    top: 74%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    font-family: "Lucida Console";
+}
+#search_button{
+    position:absolute;
+    left: 49.5%;
+    top: 60.2%;
+    background-color: #E20000;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+    margin-bottom: 150px;
+}
+#Home-Welcome-Text{
+    color:black;
+    display: inline-block;
+    position:absolute;
+    left: 19%;
+    top: 20%;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    font-size: 25px;
+}
+#home_login_button{
+    position: absolute;
+    background-color: #E20000;
+    width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+    margin-left: 71%;
+    top: 74.5%;
+    
+}
+#have_an_acc{
+    color: black;
+    display: inline-block;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    font-size: 15px;
+}
+#home_signup_button{
+    position: absolute;
+    background-color: #E20000;
+    width: 100px;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+    margin-left: 77.8%;
+    top: 74.7%;
+}
+#car_dropdown{
+    position:absolute;
+    font-family: "Lucida Console";
+    width: 110px;
+    height: 30px;
+    left: 58%;
+    top: 68%;
+}
+#part_dropdown{
+    position:absolute;
+    font-family: "Lucida Console";
+    width: 110px;
+    height: 30px;
+    left: 66%;
+    top: 68%; 
+}
+#cars_and_parts_option{
+    color: black;
+    font-weight: bold;
+    font-family: "Lucida Console";
+    width:fit-content;
+    height:20px;
+
+}
+#account_text{
+    color:black;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Lucida Console";
+    left: 90%;
+    top: 40%;
+}
+#logout_button{
+    position:absolute;
+    left: 90%;
+    top: 65%;
+    background-color: #E20000;
+    width: 134px;
+    height: 40px;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Lucida Console";
+    outline-style: groove;
+}
+#Home_Left_Container{
+    position: relative;
+    background-color: #E20000;
+    color: black;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    margin-top: 9%;
+    margin-left: 0%;
+    height: 900px;
+    width: 300px;
+    font-size: 16px;
+    line-height: 1.2; 
+}
+#Home_Main{
+    position: absolute;
+    background-color: #E20000;
+    color: black;
+    font-family: "Lucida Console";
+    font-weight: bold;
+    height: 900px;
+    width: 1050px;
+    top: 18.3%;
+    left: 17%;
+}
