@@ -34,7 +34,7 @@ session_start();
     <html>
         <head>
             <title>Autosource | Sign Up</title>
-            <link rel="stylesheet" type="text/css" href="style.css?v=2">
+            <link rel="stylesheet" type="text/css" href="style.css?v=1">
         </head>
 
         <body style="background-color: black">

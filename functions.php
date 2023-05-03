@@ -16,3 +16,12 @@ function check_login($con)
     }
     return [];
 }
+function generate_vin() {
+    $characters = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    $random_string = '';
+    for ($i = 0; $i < 17; $i++) {
+        $index = mt_rand(0, strlen($characters) - 1);
+        $random_string .= $characters[$index];
+    }
+    return $random_string;
+}
