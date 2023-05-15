@@ -1,4 +1,4 @@
-<?php
+<?php 
 session_start();
 
     include("functions.php");
@@ -29,33 +29,34 @@ session_start();
         }
     }
 ?>
-
-<!DOCTYPE html>    
-    <html>
-        <head>
-            <title>Autosource | Log in</title>
-            <link rel="stylesheet" type="text/css" href="style.css?v=1">
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" type="text/css" href="style.css?v=2">
+            <title>Autosource | Log In</title>
         </head>
-
-        <body style="background-color:black">
-            <div id="login-top-bar">
-                <span id="logo">
-                    <img src="Autosource-Logo.png" alt="Autosource Logo">
-                </span>
+    <body style="background-color:#1B1A17;">
+    <header id="header">
+            <div id="Inside_Header">
                 <a href="signup.php">
-                    <button id="signup-button">Sign Up</button>
+                    <button id="Login_Signup_Button">Sign Up</button>
                 </a>
             </div>
-            <div id="Login-Bar">
-                <br><br><br><br>Log in to Autosource Motors<br><br><br><br>
-                <form method="POST" action="login.php">
-                    <input type="text" id="text" name="email" placeholder="Email address"><br><br>
-                    <input type="password" id="text" name="psswd" placeholder="Password"><br><br>
-                    <input type="submit" id="login_button" value="Log in"><br>
-                </form>
-                <a id="info_links" href="index.php">Home</a>
-                <a id="info_links" href="#">About</a>
-                <a id="info_links" href="#">Contact</a>
+        </header>
+        <div id="lower_half">
+            <div id="Login_Menu">
+                <div id="Inside_Login_Menu">
+                    <p id="Login_Message">Login to Autosource</p>
+                    <form method="POST" action="login.php">
+                        <input type="text" id="Login_Text" name="email" placeholder="Email address"><br><br>
+                        <input type="password" id="Login_Text" name="psswd" placeholder="Password"><br><br>
+                        <input type="submit" id="Login_Button" value="Log in"><br>
+                    </form>
+                </div>
             </div>
-        </body>
-    </html>
+        </div>
+        </body>    
+</html>

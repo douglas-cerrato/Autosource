@@ -31,32 +31,35 @@ session_start();
     }
 ?>
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Autosource | Sign Up</title>
-            <link rel="stylesheet" type="text/css" href="style.css?v=1">
-        </head>
-
-        <body style="background-color: black">
-            <div id="signup-box">
-                <span id="logo">
-                    <img src="Autosource-Logo.png" alt="Autosource Logo" />
-                </span>
-                <br><br>Sign Up for Autosource<br><br><br><br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Autosource | Sign Up</title>
+</head>
+<body style="background-color:#1B1A17;">
+    <div id="SignUp_Menu">
+        <div id="Inside_SignUp">
+            <div id="Inside_Inside_SignUp">
+                <p id="SignUp_Text">Sign Up for Autosource</p>
                 <form method="post" action="signup.php">
-                    <input type="text" id="signup_text" name="fname" placeholder="First Name"><br><br>
-                    <input type="text" id="signup_text" name="lname" placeholder="Last Name"><br><br>
-                    <input type="text" id="signup_text" name="email" placeholder="Email address"><br><br>
-                    <input type="text" id="signup_text" name="phnum" placeholder="Phone Number"><br><br>
-                    <input type="password" id="signup_text" name="psswd" placeholder="Password"><br><br>
-                    <input type="password" id="signup_text" name="psswd2" placeholder="Re-type Password"><br><br>
-                    <input type="submit" id="createacc_button" value="Create Account"><br>
+                    <input type="text" id="SignUp_Input" name="fname" placeholder="First Name"><br><br>
+                    <input type="text" id="SignUp_Input" name="lname" placeholder="Last Name"><br><br>
+                    <input type="text" id="SignUp_Input" name="email" placeholder="Email address"><br><br>
+                    <input type="text" id="SignUp_Input" name="phnum" placeholder="Phone Number"><br><br>
+                    <input type="password" id="SignUp_Input" name="psswd" placeholder="Password"><br><br>
+                    <input type="password" id="SignUp_Input" name="psswd2" placeholder="Re-type Password"><br><br>
+                    <input type="submit" id="CreateAcc_Button" value="Create Account"><br>
                 </form>
                 <?php if ($error != "") { ?>
-                    <p id="error_message">
+                    <p id="Error_Message">
                         <?php echo $error; ?>
                     </p>
                 <?php } ?> 
             </div>
-        </body>
-    </html>
+        </div>
+    </div>
+</body>
+</html>
